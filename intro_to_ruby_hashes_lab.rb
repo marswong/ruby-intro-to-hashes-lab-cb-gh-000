@@ -14,7 +14,7 @@ def monopoly_with_second_tier
   monopoly = {
     railsroads: {
       :pieces: 4,
-      :name: {},
+      :names: {},
       :rent_in_dollars: {}
     }
   }
@@ -24,7 +24,7 @@ def monopoly_with_third_tier
   monopoly = {
     railsroads: {
       :pieces: 4,
-      :name: {},
+      :pennsylvania_railroad: {},
       :rent_in_dollars: {
         :one_piece_owned: 25,
         :two_pieces_owned: 50,
