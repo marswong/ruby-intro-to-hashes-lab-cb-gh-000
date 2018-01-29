@@ -7,7 +7,7 @@ def actor
 end
 
 def monopoly
-	my_hash = { :railsroads => {} }
+	monopoly = { :railroads => {} }
 end
 
 def monopoly_with_second_tier
