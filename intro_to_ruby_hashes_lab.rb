@@ -12,7 +12,10 @@ end
 
 def monopoly_with_second_tier
   monopoly = {
-    railsroads: { :pieces: 4 }
+    railsroads: {
+      :pieces: 4,
+      :name: {}
+    }
   }
 end
 
