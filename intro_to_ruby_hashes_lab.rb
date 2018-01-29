@@ -31,10 +31,10 @@ def monopoly_with_third_tier
         :shortline => {}
       },
       :rent_in_dollars: {
-        :one_piece_owned: 25,
-        :two_pieces_owned: 50,
-        :three_pieces_owned: 100,
-        :four_pieces_owned: 200
+        :one_piece_owned => 25,
+        :two_pieces_owned => 50,
+        :three_pieces_owned => 100,
+        :four_pieces_owned => 200
       }
     }
   }
@@ -43,26 +43,26 @@ end
 def monopoly_with_fourth_tier
   monopoly = {
     railsroads: {
-      :pieces: 4,
-      :names: {
-        :reading_railroad: {
-          mortgage_value: "$100"
+      :pieces => 4,
+      :names => {
+        :reading_railroad => {
+          mortgage_value => "$100"
         },
         :pennsylvania_railroad: {
-          mortgage_value: "$200"
+          mortgage_value => "$200"
         },
         :b_and_o_railroad: {
-          mortgage_value: "$400"
+          mortgage_value => "$400"
         },
         :shortline: {
-          mortgage_value: "$800"
+          mortgage_value => "$800"
         }
       },
-      :rent_in_dollars: {
-        :one_piece_owned: 25,
-        :two_pieces_owned: 50,
-        :three_pieces_owned: 100,
-        :four_pieces_owned: 200
+      :rent_in_dollars => {
+        :one_piece_owned => 25,
+        :two_pieces_owned => 50,
+        :three_pieces_owned => 100,
+        :four_pieces_owned => 200
       }
     }
   }
